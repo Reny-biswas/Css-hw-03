@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container{
+  max-width: 1439px;
+  margin: auto;
+  background-color: rgba(142, 178, 38, 1);
+  height: 84px;
+}
+
+nav .logo{
+  width: 20%;
+  padding: 30px 66px;
+  
+}
+
+nav .menu{
+  width: 40%;
+  
+  
+}
+
+nav .search{
+  width: 30%;
+  border-radius: 5px;
+  padding: 15px;
+ 
+}
+
+nav .quickmenu{
+  width: 10%;
+  color: white;
+  font-size: 25px;
+  
+
+}
+
+nav .menu ul{
+  justify-content: center;
+  
+}
+
+nav .menu ul li{
+    
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  padding: 35px 32px;
+  font-family: sans-serif;
+}
+
+nav .search form input{
+  border-radius: 6px;
+  padding: 20px 30px;
+  width: 300px;
+  background: #fff;
+
+}
+
+nav .quickmenu i{
+  padding: 35px 5px;
+}
+
+nav .menu ul li a{
+  color: white;
+}
